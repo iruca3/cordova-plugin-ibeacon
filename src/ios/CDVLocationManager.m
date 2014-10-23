@@ -501,7 +501,7 @@
         [result setKeepCallbackAsBool:YES];
 
         return result;
-    } :command];
+    } :command :NO :command.callbackId];
 }
 
 # pragma mark CBPeripheralManagerDelegate
